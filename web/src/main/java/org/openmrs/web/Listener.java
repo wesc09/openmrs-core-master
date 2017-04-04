@@ -332,6 +332,8 @@ public final class Listener extends ContextLoader implements ServletContextListe
 				log.error("Failed to get construct context path", e);
 			}
 		}
+                
+                //Prueba
 		catch (Exception e) {
 			log.error("Failed to get context path", e);
 		}
